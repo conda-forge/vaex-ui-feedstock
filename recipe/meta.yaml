@@ -1,6 +1,6 @@
 {% set name = "vaex-ui" %}
-{% set version = "0.1.6" %}
-{% set sha256 = "1e0e4fcd7968731108ccbec6953b0f6a6614d33eb0d700cf429881128206ea6c" %}
+{% set version = "0.1.7" %}
+{% set sha256 = "a4509fed6db33deefbb051a994b6fbe0a6352bdd5a053df831c137fbb21ec917" %}
 
 package:
   name: {{ name|lower }}
@@ -22,13 +22,15 @@ requirements:
     - setuptools
   run:
     - python
-    - vaex-core >=0.1
     - pyopengl
     - scipy
     - pyqt
     - matplotlib
+    - vaex-core >=0.1
     - vaex-hdf5
     - vaex-astro
+    - vaex-viz
+    - vaex-server
 
 test:
   imports:

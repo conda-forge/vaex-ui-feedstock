@@ -1,6 +1,6 @@
 {% set name = "vaex-ui" %}
-{% set version = "0.1.5" %}
-{% set sha256 = "c8d41bd78edc15423dad191adbbf8362a2140f71c03d4b536645af71f3e20f1e" %}
+{% set version = "0.1.6" %}
+{% set sha256 = "1e0e4fcd7968731108ccbec6953b0f6a6614d33eb0d700cf429881128206ea6c" %}
 
 package:
   name: {{ name|lower }}
